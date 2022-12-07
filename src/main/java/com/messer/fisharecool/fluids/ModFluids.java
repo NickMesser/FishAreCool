@@ -9,8 +9,9 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.FluidBlock;
 import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.item.*;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 public class ModFluids {
     public static FlowableFluid STILL_MINING_WATER;
@@ -19,17 +20,17 @@ public class ModFluids {
     public static Item MINING_WATER_BUCKET;
 
     public static void register(){
-        STILL_MINING_WATER = Registry.register (Registry.FLUID,
+        STILL_MINING_WATER = Registry.register (Registries.FLUID,
                 new Identifier(FishAreCool.MOD_ID, "mining_water"), new MiningWaterFluid.Still());
 
-        FLOWING_MINING_WATER = Registry.register(Registry.FLUID,
+        FLOWING_MINING_WATER = Registry.register(Registries.FLUID,
                 new Identifier(FishAreCool.MOD_ID, "flowing_mining_water"), new MiningWaterFluid.Flowing());
 
-        MINING_WATER_BLOCK = Registry.register(Registry.BLOCK, new Identifier(FishAreCool.MOD_ID, "mining_water_block"),
+        MINING_WATER_BLOCK = Registry.register(Registries.BLOCK, new Identifier(FishAreCool.MOD_ID, "mining_water_block"),
                 new FluidBlock(ModFluids.STILL_MINING_WATER, FabricBlockSettings.copyOf(Blocks.WATER)){ });
 
-        MINING_WATER_BUCKET = Registry.register(Registry.ITEM, new Identifier(FishAreCool.MOD_ID, "mining_water_bucket"),
-                new BucketItem(ModFluids.STILL_MINING_WATER, new FabricItemSettings().group(ItemGroup.MISC).recipeRemainder(Items.BUCKET).maxCount(1).food(ModFoodComponents.MINING_WATER)));
+        MINING_WATER_BUCKET = Registry.register(Registries.ITEM, new Identifier(FishAreCool.MOD_ID, "mining_water_bucket"),
+                new BucketItem(ModFluids.STILL_MINING_WATER, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1).food(ModFoodComponents.MINING_WATER)));
 
     }
 }
