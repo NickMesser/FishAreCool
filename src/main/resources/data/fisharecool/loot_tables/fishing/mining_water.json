@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:iron_fish",
+          "weight": 45
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:copper_fish",
+          "weight": 45
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:redstone_fish",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:diamond_fish",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:emerald_fish",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:debris_fish",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:lapis_fish",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:quartz_fish",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:amethyst_fish",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:coal_fish",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:gold_fish",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fisharecool:mining_water_bucket",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

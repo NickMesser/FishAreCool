@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fisharecool:lapis_fish"
+  },
+  "result": "fisharecool:cooked_lapis_fish",
+  "experience": 0.15,
+  "cookingtime": 200
+}

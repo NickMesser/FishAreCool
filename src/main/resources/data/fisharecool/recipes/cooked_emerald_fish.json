@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fisharecool:emerald_fish"
+  },
+  "result": "fisharecool:cooked_emerald_fish",
+  "experience": 0.15,
+  "cookingtime": 200
+}

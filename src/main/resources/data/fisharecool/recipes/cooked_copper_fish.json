@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fisharecool:copper_fish"
+  },
+  "result": "fisharecool:cooked_copper_fish",
+  "experience": 0.15,
+  "cookingtime": 200
+}

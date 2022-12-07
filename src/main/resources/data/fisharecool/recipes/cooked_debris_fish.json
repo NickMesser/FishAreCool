@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fisharecool:debris_fish"
+  },
+  "result": "fisharecool:cooked_debris_fish",
+  "experience": 0.15,
+  "cookingtime": 200
+}

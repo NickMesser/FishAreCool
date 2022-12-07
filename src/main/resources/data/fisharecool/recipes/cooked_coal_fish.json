@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fisharecool:coal_fish"
+  },
+  "result": "fisharecool:cooked_coal_fish",
+  "experience": 0.15,
+  "cookingtime": 200
+}

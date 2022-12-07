@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fisharecool:quartz_fish"
+  },
+  "result": "fisharecool:cooked_quartz_fish",
+  "experience": 0.15,
+  "cookingtime": 200
+}

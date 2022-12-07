@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fisharecool:iron_fish"
+  },
+  "result": "fisharecool:cooked_iron_fish",
+  "experience": 0.15,
+  "cookingtime": 200
+}

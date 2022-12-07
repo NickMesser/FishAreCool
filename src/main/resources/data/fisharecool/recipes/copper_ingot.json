@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fisharecool:cooked_copper_fish"
+    }
+  ],
+  "result": {
+    "item": "minecraft:copper_ingot",
+    "count": 2
+  }
+}

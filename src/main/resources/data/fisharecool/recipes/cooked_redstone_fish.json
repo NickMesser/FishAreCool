@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fisharecool:redstone_fish"
+  },
+  "result": "fisharecool:cooked_redstone_fish",
+  "experience": 0.15,
+  "cookingtime": 200
+}
